@@ -17,7 +17,7 @@ Samer Iskander (UCCS) Python Programming Fall 2024 43 / 45
 
 
 def findLargestSide(x, y, z):
-    if((x > y & z) & (x > z)):
+    if((x > y) & (x > z)):
       if(y+z <= x):
          return("Not a Triangle")
       else:
