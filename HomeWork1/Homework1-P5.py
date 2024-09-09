@@ -1,5 +1,5 @@
-test = True
-while(test) :
+conditionOne = True
+while(conditionOne) :
     print("Please enter the number of lines: ")
     userInput = int(input())
 
@@ -8,6 +8,6 @@ while(test) :
             spaces = ' ' * (userInput - i)
             stars = '* ' * i
             print(spaces + stars)
-            test = False 
+            conditionOne = False 
     else :
         print("Invalid Input")
